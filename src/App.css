@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.Container h2 {
+  text-align: center;
+  color: rgb(145, 21, 124);
+  margin-top: 50px;
+  font-family: Brush Script MT;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.reset-button {
+  color: white;
+  margin: 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: rgb(20, 199, 50);
+}
+.List {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  width: 80%;
+}
+
+.Track {
+  background-color: rgb(237, 230, 238);
+  border-radius: 20px;
+  border: dotted black;
+  width: 100%;
+  margin: 5px;
+}
+
+.Clock {
+  margin: 20px;
+}
+
+.Track h3 {
+  font-family: Brush Script MT;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.text-small {
+  font-size: small;
+  font-weight: bold;
+}
+
+.text-working {
+  color: rgb(20, 199, 50);
+}
+
+.text-resting {
+  color: rgb(190, 20, 20);
+}
+
+.time {
+  font-size: small;
+  color: black;
+}
+
+.Button {
+  margin-top: 10px;
+}
+
+.Clock1 button {
+  margin-right: 10px;
+}
+
+.button {
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.clock-in {
+  color: white;
+  background-color: rgb(190, 20, 20);
+}
+
+.clock-out {
+  color: white;
+  background-color: rgb(20, 199, 50);
+}
